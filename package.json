@@ -1,10 +1,34 @@
 {
   "dependencies": {
+    "@langchain/community": "^0.3.47",
+    "@langchain/openai": "^0.0.19",
     "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.0",
+    "dotenv": "^17.0.0",
     "ejs": "^3.1.10",
     "express": "^5.1.0",
     "fetch": "^1.1.0",
+    "langchain": "^0.0.114",
     "mysql": "^2.18.1",
+    "openai": "^4.33.0",
     "session": "^0.1.0"
-  }
+  },
+  "name": "summer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TannerButler/Finanssance.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TannerButler/Finanssance/issues"
+  },
+  "homepage": "https://github.com/TannerButler/Finanssance#readme",
+  "description": ""
 }
