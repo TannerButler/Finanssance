@@ -35,3 +35,17 @@ h1, h2, h3 {
   text-decoration: underline;
   color: #b28b32 !important;
 }
+
+.fade-in {
+  animation: fadeIn 0.6s ease-in-out;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.custom-card {
+    background-color: #fdf4e7;
+    color: #fdf4e7
+    border-radius: 12px;
+}
