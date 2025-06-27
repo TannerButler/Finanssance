@@ -12,3 +12,13 @@ body.custom-bg {
     background-color: #9a772b;
     border-color: #9a772b;
 }
+
+.libertinus-mono-regular {
+  font-family: "Libertinus Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    font-family: 'Libertinus Mono', monospace;
+}
