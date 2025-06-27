@@ -4,8 +4,12 @@ body.custom-bg {
 
 .custom-btn {
     background-color: #5a3e23;
-    border-color: #5a3e23;
     color: white;
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
 }
 
 .custom-btn:hover {
@@ -20,5 +24,14 @@ body.custom-bg {
 }
 
 body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3 {
     font-family: 'Libertinus Mono', monospace;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  color: #b28b32 !important;
 }
